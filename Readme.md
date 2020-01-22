@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Иришка](https://up.htmlacademy.ru/htmlcss/27/user/1272253).
-* Наставник: [Сергей Зубов] (https://htmlacademy.ru/profile/serj).
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
 
 ---
 
