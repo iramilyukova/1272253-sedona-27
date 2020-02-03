@@ -26,6 +26,7 @@
       <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p>Рассмотрим пять причин, по которым седона круче, чем Гранд Каньен!</p>
       <section>
+        <h2 class="visually-hidden">Список причин</h2>
         <ol>
           <li>
             <h3>
@@ -37,6 +38,7 @@
           </li>
           <div>
             <ul>
+              <h2 class="visually-hidden">Сервис Седоны</h2>
               <li>
                 <img src="img/icon-1.svg" width="" height="" alt="Жилье">
                 <span>Жилье</span>
@@ -90,8 +92,26 @@
       <p>Укажите предполагаемые даты поездки, и мы покажем лучшие предложения гостиниц в Седоне</p>
     </section>
     <section>
+      <h2 class="visually-hidden">Забронировать отель</h2>
       <img src="img/map.png" width="1200" height="593" alt="Карта">
-        <!-- Здесь будет форма -->
+      <form action="https://echo.htmlacademy.ru"; method="post" oninput="rateoutput.value=rating.value">
+      <fielded>
+        <legend>Поиск гостиницы в Седоне</legend>
+        <p>
+          <label for=”appointment-data”>Дата заезда</label>
+          <input type=”text”/><input id=”appointment-data” value="24 апреля 2017” type="image" src="img /calendar. png” alt=”Календарь”/>
+        </p>
+        <p>
+          <label for=”departure-data”>Дата выезда</label>
+          <input type="text" name="date" id=”departure-data” value="4 июля 2017”/><input type="image" srs=”img /calendar. png” alt=”Календарь”/>
+        </p>
+        <span>Взрослые:</span>
+        <button>-</button><input type=”number” value=”2”/><button>+</button>
+        <span>Дети:</span>
+        <button>-</button><input type=”number” value=”0”/><button>+</button
+        <button>-</button><input type=”number” value=”0”/><button>+</button
+        <button type="submit">Найти</button>
+      </fielded>
     </section>
   </main>
   <footer>
