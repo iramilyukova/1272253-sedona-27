@@ -94,27 +94,28 @@
     </section>
     <section>
       <h2 class="visually-hidden">Забронировать отель</h2>
-      <img src="img/map.png" width="1200" height="593" alt="Седона на Карте   ">
+      <img src="img/map.png" width="1200" height="593" alt="Седона на Карте">
       <form action="https://echo.htmlacademy.ru"; method="post" oninput="rateoutput.value=rating.value">
       <fielded>
         <legend>Поиск гостиницы в Седоне</legend>
         <p>
           <label for="appointment-data">Дата заезда</label>
-          <input type="text" id="appointment-data" name="date" value="24 апреля 2017"/> <input type="image" src="img /calendar.png" alt="Календарь"/>
+          <input type="text" id="appointment-data" name="date" value="24 апреля 2017"/> <input type="image" src="img/calendar.png" alt="Календарь"/>
         </p>
         <p>
           <label for="departure-data">Дата выезда</label>
-          <input type="text" name="date" id="departure-data" value="4 июля 2017"/><input type="image" srs="img /calendar.png" alt="Календарь"/>
+          <input type="text" id="departure-data" name="date" value="4 июля 2017"/><input type="image" srs="img/calendar.png" alt="Календарь"/>
         </p>
         <p>
           <label for="adults">Взрослые </label>
           <button>-</button><input type="number" id="adults" value="2"/><button>+</button>
           <label for="child">Дети:</span>
-          <button>-</button><input type="number" value="0"/><button>+</button>
+          <button>-</button><input type="number" id="child" value="0"/><button>+</button>
         </p>
         <button type="submit">Найти</button>
       </fielded>
-    </section>
+    </form>
+  </section>
   </main>
   <footer>
     <p>#Visitsedona</p>
