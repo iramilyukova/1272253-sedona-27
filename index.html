@@ -59,14 +59,14 @@
           <li>
             <img src="img/mount.jpg" width="800" height="256" alt="Фото Моста Дьявола">
             <h3>
-              <span>Там есть<br>мост дьявола</span>
+              <p>Там есть<br>мост дьявола</p>
             </h3>
             <span>№2</span>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </li>
           <li>
             <h3>
-              <span>Небольшая площадь</span>
+              <p>Небольшая площадь</p>
             </h3>
             <span>№3</span>
             <p>Все достопримечательности находятся очень близко</p>
@@ -91,27 +91,33 @@
     <section>
       <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки, и мы покажем лучшие предложения гостиниц в Седоне</p>
+      <button type="submit">Поиск гостиницы в Седоне</button>
     </section>
     <section>
       <h2 class="visually-hidden">Забронировать отель</h2>
       <img src="img/map.png" width="1200" height="593" alt="Седона на Карте">
-      <form action="https://echo.htmlacademy.ru"; method="post" oninput="rateoutput.value=rating.value">
+      <form action="https://echo.htmlacademy.ru" method="post">
       <fielded>
-        <legend>Поиск гостиницы в Седоне</legend>
         <p>
           <label for="appointment-data">Дата заезда</label>
-          <input type="text" id="appointment-data" name="date" value="24 апреля 2017"/> <input type="image" src="img/calendar.png" alt="Календарь"/>
+          <input type="text" id="appointment-data" name="date" placeholder="24 апреля 2017">
+          <buttom type="button"><img src="img/calendar.svg" alt="Календарь"></button>
         </p>
         <p>
           <label for="departure-data">Дата выезда</label>
-          <input type="text" id="departure-data" name="date" value="4 июля 2017"/><input type="image" srs="img/calendar.png" alt="Календарь"/>
+          <input type="text" id="departure-data" name="date" placeholder ="4 июля 2017">
+          <buttom type="button"><img src="img/calendar.svg" alt="Календарь"></button>
         </p>
-        <p>
+        <div>
           <label for="adults">Взрослые </label>
-          <button>-</button><input type="number" id="adults" value="2"/><button>+</button>
+          <button type="button">-</button>
+          <input type="number" id="adults" value="2"/>
+          <button type="button">+</button>
           <label for="child">Дети:</span>
-          <button>-</button><input type="number" id="child" value="0"/><button>+</button>
-        </p>
+          <button type="button">-</button>
+          <input type="number" id="child" value="0"/>
+          <buttontype="button">+</button>
+        </div>
         <button type="submit">Найти</button>
       </fielded>
     </form>
