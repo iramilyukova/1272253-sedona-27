@@ -25,75 +25,75 @@
     <section>
       <!-- Пропущен большой блок-->
     </section>
-    <article class="blog-entry">
-      <h2 class="subtitle">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
+    <article class="entry-blog">
+      <h2 class="subtitle-blog">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p>Рассмотрим пять причин, по которым седона круче, чем Гранд Каньен!</p>
-      <section>
+      <section class="reasons">
         <h2 class="visually-hidden">Список причин</h2>
         <ol class="reasons-list">
           <li class="reasons-item">
             <h3>
               <span>Настоящий городок</span>
             </h3>
-            <span class="number-reasons">№1</span>
-            <p>Седона не аттракцион для туристов, там течет настоящая жизнь</p>
+            <span class="reasons-number">№1</span>
+            <p class="reasons-text">Седона не аттракцион для туристов, там течет настоящая жизнь</p>
             <img src="img/flag.jpg" width="800" height="256" alt="Фото Седоны">
           </li>
-          <div class="entry-content">
-            <ul class="reasons-list list-reasons">
+          <div class="reasons-content">
+            <ul class="reasons-content-list">
               <h2 class="visually-hidden">Сервис Седоны</h2>
-              <li class="reasons-item item-reasons">
-                <img src="img/icon-1.svg" width="" height="" alt="Жилье">
+              <li class="reasons-content-item">
+                <img src="img/icon-1.svg" width="75" height="76" alt="Жилье">
                 <span>Жилье</span>
                 <p>Всегда можно пожить в настоящем мотеле, все как в кино!</p>
               </li>
-              <li class="reasons-item item-reasons">
-                <img src="img/icon-2.svg" width="" height="" alt="Еда">
+              <li class="reasons-content-item">
+                <img src="img/icon-2.svg" width="77" height="70" alt="Еда">
                 <span>Еда</span>
-                <p class="text">Всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
+                <p class="reasons-text">Всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
               </li>
-              <li class="reasons-item item-reasons">
-                <img src="img/icon-3.svg" width="" height="" alt="Сувениры">
+              <li class="reasons-content-item">
+                <img src="img/icon-3.svg" width="64" height="76" alt="Сувениры">
                 <span>Сувениры</span>
-                <p>Не только китайского, но и местного производства</p>
+                <p class="reasons-text">Не только китайского, но и местного производства</p>
               </li>
             </ul>
           </div>
           <li class="reasons-item">
             <img src="img/mount.jpg" width="800" height="256" alt="Фото Моста Дьявола">
             <h3>
-              <p class="text">Там есть<br>мост дьявола</p>
+              <p class="reasons-text">Там есть<br>мост дьявола</p>
             </h3>
-            <span class="number-reasons">№2</span>
-            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            <span class="reasons-number">№2</span>
+            <p class="reasons-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </li>
           <li>
             <h3>
               <p>Небольшая площадь</p>
             </h3>
-            <span class="number">№3</span>
-            <p class="text">Все достопримечательности находятся очень близко</p>
+            <span class="reasons-number">№3</span>
+            <p class="reasons-text">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="reasons-item">
             <h3>
               <span> Красивая дорога</span>
             </h3>
-            <span class="number">№4</span>
-            <p class="text">Ехать в Седону ихз Лас-Вегаса совсем не скучно!</p>
+            <span class="reasons-number">№4</span>
+            <p class="reasons-text">Ехать в Седону ихз Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="reasons-item">
             <h3>
               <span>Мало туристов</span>
             </h3>
-            <span class="number">№5</span>
-            <p class="text">Большинство едет в Гранд Коньон и толпится там</p>
+            <span class="reasons-number">№5</span>
+            <p class="reasons-text">Большинство едет в Гранд Коньон и толпится там</p>
           </li>
         </ol>
       </section>
     </article>
     <section class="appointment-info">
-      <h2 class="title">Заинтересовались?</h2>
-      <p class="text">Укажите предполагаемые даты поездки, и мы покажем лучшие предложения гостиниц в Седоне</p>
+      <h2 class="appointment-title">Заинтересовались?</h2>
+      <p class="appointment-text">Укажите предполагаемые даты поездки, и мы покажем лучшие предложения гостиниц в Седоне</p>
       <button type="submit">Поиск гостиницы в Седоне</button>
     </section>
     <section class="appointment">
@@ -110,22 +110,22 @@
           <input type="text" id="departure-data" name="date" placeholder="4 июля 2017">
           <buttom type="button"><img src="img/calendar.svg" alt="Календарь"></button>
         </p>
-        <div class="number-people">
+        <div class="appointment-number-people">
           <label for="adults">Взрослые:</label>
-          <button class="btn-edit" type="button">-</button>
+          <button class="appointment-btn-edit" type="button">-</button>
           <input type="number" id="adults" value="2">
-          <button class="btn-edit" type="button">+</button>
+          <button class="appointment-btn-edit" type="button">+</button>
           <label for="child">Дети:</span>
-          <button class="btn-edit" type="button">-</button>
+          <button class="appointment-btn-edit" type="button">-</button>
           <input type="number" id="child" value="0">
-          <button class="btn-edit" type="button">+</button>
+          <button class="appointment-btn-edit" type="button">+</button>
         </div>
-        <button class="button" type="submit">Найти</button>
+        <button class="appointment-button" type="submit">Найти</button>
       </form>
     </section>
   </main>
   <footer class="main-footer">
-    <p class="visit">#Visitsedona</p>
+    <p class="footer-hashtag">#Visitsedona</p>
     <p class="footer-contacts">Тел:
       <a href="tel:+74956660266">+7(495)666-02-66</a>
     </p>
@@ -138,7 +138,7 @@
     </div>
     <p>
     <span class="footer-copyright">Website by</span>
-      <a class="footer-link" href="https://htmlacademy.ru/intensive/htmlcss">
+      <a class="footer-copyright-logo" href="https://htmlacademy.ru/intensive/htmlcss">
         <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy">
       </a>
     </p>
