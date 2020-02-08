@@ -38,7 +38,7 @@ background-color: #ffffff;
   list-style: none;
 } /*отменяем дефолтные  стили списка*/
 .main-title-image {
-	background-image: url("img/intro-welcome.svg");
+	background-image: url("background-photo.jpg");
 }
 .about-title-slogan {
 	font-size: 21px;
