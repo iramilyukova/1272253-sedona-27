@@ -37,7 +37,7 @@ background-color: #ffffff;
 .reason-content-list {
   list-style: none;
 } /*отменяем дефолтные  стили списка*/
-.main-title-image {
+.container {
 	background-image: url("background-photo.jpg");
 }
 .about-title-slogan {
