@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: PT Sans, Arial, sans-serif;
+	font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+	background-position: top center;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+	font-weight: 700;
+
+background-color: #ffffff;
+}
+.header-navigation {
+  list-style: none;
+}
+.main-navigation a:hover {
+  background-color: #81b3d2;
+}
+.main-navigation a:focus {
+  background-color: cacaca;
+}
+.reason-list,
+.reason-content-list {
+  list-style: none;
+} /*отменяем дефолтные  стили списка*/
+.main-title .main-title-image {
+	background-image: url("img/intro-welcome.svg");
+}
+.about-title-slogan {
+	font-size: 21px;
+  line-height: 26px;
+	color: #000000;
+	text-align: center;
+}
+.about-title-text {
+	font-size: 14px;
+  line-height: 26px;
+	color: #000000;
+	font-weight: 400;
+	text-align: center;
+}
+.reason-content-item {
+  text-align: center;
+}
+
+.reason-content-item-title {
+  font-size: 21px;
+  line-height: 21px;
+}
+.order-question-title {
+	font-size: 30px;
+  line-height: 36px;
+	font-weight: 700;
+}
+.order-question-text {
+	font-size: 14px;
+  line-height: 21px;
+	color: #000000;
+	font-weight: 400;
+	text-align: center;
+}
+/*Оформляем кнопку "Поиск гостиниц в Седоне*/
+.order-question-bottom {
+	font-size: 21px;
+  line-height: 26px;
+	text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #766357;
+}
+.order-question-bottom:hover {
+background-color: #604e43;
+color: #ffffff;
+}
+.order-question-bottom:focus {
+background-color: #503e33;
+color: #928a85;
+}
+.order-title {
+	font-size: 14px;
+  line-height: 26px;
+	color: #000000;
+	font-weight: 700;
+	text-align: center;
+}
+.order-text {
+font-size: 14px;
+line-height: 26px;
+color: #000000;
+font-weight: 700;
+text-align: left;
+background-color: #f2f2f2;	
+}
+/*Оформляем текст в форме при фокусировке*/
+.order-text:hover {
+background-color: #ebebeb;
+}
+.order-text:focus {
+background-color: #ffffff;
+}
+.order-count-value {
+text-align: center;
+background-color: #f2f2f2;
+}
+/*Оформляем знаки + и - при фокусировке*/
+.order-botton-edit {
+color: #a9a9a9;
+}
+.order-botton-edit:hover {
+	color: #000000;
+}
+.order-botton-edit:focus {
+	color: #81b3d2;
+}
+/*Оформляем календарик и его фокусировки*/
+.order-botton-calendar {
+	color: #cdcdcd;
+}
+.order-botton-calendar:hover {
+	color: #ffffff;
+}
+.order-botton-calendar:focus {
+	color: #81b3d2;
+}
+/*Оформляем кнопку "Войти"*/
+.oreder-button {
+	font-size: 21px;
+  line-height: auto;
+	text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+}
+/*Кнопка при нажатии пропадает*/
+.oreder-button:hover {
+background-color: #ffffff;
+color: #ffffff;
+}
+.oreder-button:focus {
+background-color: #5496bd;
+color: #94b9d2;
+}
+.main-footer {
+  color: #000000;
+
+  background-color: #ffffff;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.footer-hashtag,
+.footer-phone {
+	font-size: 21px;
+  line-height: 26px;
+	text-align: center;
+  color: #ffffff;
+}
+
+.footer-social {
+  text-align: center;
+	background-color: #81b3d2;
+}
+
+.footer-social ul {
+  list-style: none;
+}/*отменяем дефолтный стиль у списка.*/
+
+.social-button {
+  color: #ffffff;
+}
+.social-button a:hover {
+background-color: #669ec0;
+text-decoration: none;
+}
+.social-button a:focus {
+background-color: #5496bd;
+color: #88b6d1;
+text-decoration: none;
+}
+.footer-copyright {
+	font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+	text-align: center;
+}
+
+.footer-logo:hover{
+color: #98c1da;
+}
+.footer-logo:focus {
+color: #bdbbbc;
+}
