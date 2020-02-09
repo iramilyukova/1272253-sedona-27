@@ -13,13 +13,6 @@ body {
 	background-position: top center;
   background-repeat: no-repeat;
 }
-.inner-page {
-  color: #000000;
-	background-image: url("img/filter-background.jpg");
-  background-color: #ffffff;
-  background-position: 50% 50%;
-  background-repeat: repeat;
-}
 
 a {
   text-decoration: none;
@@ -58,6 +51,14 @@ list-style: none;
   color: cacaca;
 	text-decoration: none;
 }
+.container .inner-page {
+  color: #000000;
+	background-image: url("img/filter-background.jpg");
+  background-color: #ffffff;
+  background-position: 50% 50%;
+  background-repeat: repeat;
+}
+
 .result-count {
 	font-size: 21px;
   line-height: 26px;
