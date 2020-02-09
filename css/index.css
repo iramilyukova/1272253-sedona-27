@@ -26,20 +26,20 @@ a {
 	font-weight: 700;
 	background-color: #ffffff;
   color:  #000000;
+	list-style: none;
+}
+.header-navigation {
+list-style: none;
 }
 /*Почему-то свойство не срабатывает*/
 .info-current {
 	color: #766357;
+	background-color: #ffffff;
 }
-.header-navigation {
-	color: #000000;
-  list-style: none;
-	text-decoration: none;
-}
-.main-navigation a:hover {
+a .catalog:hover {
   background-color: #81b3d2;
 }
-.main-navigation a:focus {
+a .catalog:focus {
   background-color: cacaca;
 }
 /*отменяем дефолтные стили списка*/
