@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: PT Sans, Arial, sans-serif;
+	font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+	background-position: top center;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+.main-header-logo {
+	text-align: center;
+}
+.main-navigation a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+	font-weight: 700;
+	background-color: #ffffff;
+  color:  #000000;
+}
+/*Почему-то свойство не срабатывает*/
+.header-navigation-info {
+	color: #000000;
+	text-decoration: none;
+}
+.header-navigation-info a:hover {
+  color: #81b3d2;
+	text-decoration: none;
+}
+.header-navigation-info a:focus {
+  color: cacaca;
+	text-decoration: none;
+}
+.result-count {
+	font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+.result-sort {
+	font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+.sort-list {
+	font-size: 21px;
+  line-height: 26px;
+  font-weight: 400;
+	list-style: none;
+}
+.sort-item-current {
+	color: #81b3d2;
+}
+.sort-item {
+color: #cacaca;
+text-decoration-style: dotted;
+text-decoration-color: 81b3d2;
+}
+.sort-item:hover {
+  color: #81b3d2;
+}
+.sort-item:focus {
+  color: #000000;
+}
+.sort-item-icon {
+	color: #cacaca;
+}
+.sort-item-icon:hover {
+  color: #000000;
+}
+.sort-item-icon:focus {
+  color: #81b3d2;
+}
+.catalog-list {
+	list-style: none;
+}
+.catalog-item-img {
+	text-align: left;
+}
+.catalog-item-title {
+	font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+	text-align: left;
+	color: #000000;
+}
+.catalog-item-title:hover {
+color: #81b3d2;
+}
+.catalog-item-title:focus {
+color: #cacaca;;
+}
+.catalog-item-type,
+.catalog-item-price {
+	font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+	color: #333333;
+	text-align: left;
+}
+.catalog-button-detail,
+.catalog-item-button {
+	font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+	text-align: center;
+}
+.catalog-button-detail {
+	background-color: #81b3d2;
+	color: #ffffff;
+}
+.catalog-button-detail:hover {
+	background-color: #669ec0;
+	color: #ffffff;
+}
+.catalog-button-detail:focus {
+	background-color: #5496bd;
+	color: #85b0cd;
+}
+.catalog-item-button {
+	background-color: #766357;
+	color: #ffffff;
+}
+.catalog-item-button:hover {
+	background-color: #604e43;
+	color: #ffffff;
+}
+.catalog-item-button:focus {
+	background-color: #503e33;
+	color: #928a85;
+}
+/*Взяли футер с главной страницы*/
+.main-footer {
+  color: #000000;
+  background-color: #ffffff;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.footer-hashtag,
+.footer-phone {
+	font-size: 21px;
+  line-height: 26px;
+	text-align: left;
+  color: #000000;
+	text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+	background-color: #81b3d2;
+}
+
+.footer-social ul {
+  list-style: none;
+}/*отменяем дефолтный стиль у списка.*/
+
+.social-button {
+  color: #ffffff;
+}
+.social-button a:hover {
+background-color: #669ec0;
+text-decoration: none;
+}
+.social-button a:focus {
+background-color: #5496bd;
+color: #88b6d1;
+text-decoration: none;
+}
+.footer-copyright {
+	font-size: 14px;
+  line-height: 26px;
+	font-weight: 400;
+  color: #000000;
+}
+/*Не меняется цвет лого при фокусу*/
+a .footer-logo {
+color: #000000;
+text-align: right;
+}
+
+a .footer-logo:hover{
+color: #98c1da;
+}
+a .footer-logo:focus {
+color: #bdbbbc;
+}

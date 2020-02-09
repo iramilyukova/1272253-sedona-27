@@ -16,16 +16,25 @@ body {
 a {
   text-decoration: none;
 }
-.main-navigation {
+.main-header-logo {
+	text-align: center;
+}
+.main-navigation a {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
 	font-weight: 700;
-
-background-color: #ffffff;
+	background-color: #ffffff;
+  color:  #000000;
+}
+/*Почему-то свойство не срабатывает*/
+.info-current {
+	color: #766357;
 }
 .header-navigation {
+	color: #000000;
   list-style: none;
+	text-decoration: none;
 }
 .main-navigation a:hover {
   background-color: #81b3d2;
@@ -33,12 +42,14 @@ background-color: #ffffff;
 .main-navigation a:focus {
   background-color: cacaca;
 }
+/*отменяем дефолтные стили списка*/
 .reason-list,
 .reason-content-list {
   list-style: none;
-} /*отменяем дефолтные  стили списка*/
+}
 .container {
-	background-image: url("background-photo.jpg");
+	background-image: url("../img/background-photo.jpg");
+  text-align: center;
 }
 .about-title-slogan {
 	font-size: 21px;
@@ -63,12 +74,14 @@ background-color: #ffffff;
 }
 /*Убираем видимую рамку для формы*/
 .order-form {
-	border: none;
+	/*border: none;*/
+  text-align: center;
 }
 .order-question-title {
 	font-size: 30px;
   line-height: 36px;
 	font-weight: 700;
+  text-align: center;
 }
 .order-question-text {
 	font-size: 14px;
@@ -150,6 +163,7 @@ color: #a9a9a9;
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
+  text-align: center;
 
   background-color: #81b3d2;
   border: none;
@@ -174,19 +188,19 @@ color: #94b9d2;
 .footer-phone {
 	font-size: 21px;
   line-height: 26px;
-	text-align: center;
-  color: #ffffff;
+	text-align: left;
+  color: #000000;
+	text-decoration: none;
 }
 
 .footer-social {
   text-align: center;
 	background-color: #81b3d2;
 }
-
+/*отменяем дефолтный стиль у списка.*/
 .footer-social ul {
   list-style: none;
-}/*отменяем дефолтный стиль у списка.*/
-
+}
 .social-button {
   color: #ffffff;
 }
@@ -202,13 +216,19 @@ text-decoration: none;
 .footer-copyright {
 	font-size: 14px;
   line-height: 26px;
+	font-weight: 400;
   color: #000000;
-	text-align: center;
+}
+/*Не меняется цвет лого при фокусу*/
+a .footer-logo {
+color: #000000;
+text-align: right;
 }
 
-.footer-logo:hover{
+a .footer-logo:hover{
 color: #98c1da;
+
 }
-.footer-logo:focus {
+a .footer-logo:focus {
 color: #bdbbbc;
 }
