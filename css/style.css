@@ -1,0 +1,325 @@
+body {
+  font-family: PT Sans, Arial, sans-serif;
+	font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  background-color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header-logo {
+
+}
+
+.main-header-logo img {
+  display:block;
+}
+
+.header-navigation {
+  list-style: none;
+  font-weight: 700;
+}
+
+.info-current {
+  color: #766357;
+}
+
+.header-navigation a {
+  color: #000;
+}
+
+.main-title {
+  background: #dceaf3 url("../img/background-photo.jpg") no-repeat center;
+}
+
+.about-title-slogan {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.about-title-text {
+  font-weight: 400;
+  text-align: center;
+}
+
+.reason-list {
+  list-style: none;
+}
+
+.reason-item-blue {
+  background-color: #81b3d2;
+  color: #fff;
+  text-align: center;
+}
+
+.reason-content-list {
+  list-style: none;
+}
+
+.reason-content-item {
+  text-align: center;
+}
+
+.reason-content-item-title {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700px;
+}
+
+.order-question {
+  text-align: center;
+}
+
+.order-question-bottom {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border:none;
+  background-color: #766357;
+}
+
+.order-question-bottom:hover {
+  background-color: #604e43;
+}
+
+.order-question-bottom:focus {
+  background-color: #503e33;
+  color: #928a85;
+}
+
+.order-form {
+  text-align: center;
+}
+
+.order-title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.order-text {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000;
+  font-weight: 700;
+  background-color: #f2f2f2;
+}
+
+.order-text:hover {
+  background-color: #ebebeb;
+}
+
+.order-text:focus {
+  background-color: #ffffff;
+}
+
+.order-botton-edit {
+  color: #a9a9a9;
+}
+
+.order-botton-edit:hover {
+  color: #000000;
+}
+
+.order-botton-edit:focus {
+  color: #81b3d2;
+}
+
+.order-count-value {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.order-button {
+  font-size: 21px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.oreder-button:hover {
+  background-color: #fff;
+  color: #fff;
+}
+
+.oreder-button:focus {
+  background-color: #5496bd;
+}
+
+.main-footer {
+  background-color: #fff;
+}
+
+.footer-text {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-phone a {
+  color: #000;
+}
+
+.footer-social {
+  text-align: center;
+  list-style: none;
+}
+
+.social-button {
+  background-color: #81b3d2;
+}
+
+.social-button:hover {
+  background-color: #669ec0;
+}
+
+.social-button:focus {
+  background-color: #5496bd;
+}
+/* Стили каталога*/
+.filter {
+  background: #dceaf3 url("../img/filter-background.jpg") no-repeat center;
+}
+
+.filter-button {
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+}
+
+.filter-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.result-count {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  border: 1px solid #fff;
+}
+
+.result-sort {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sort-list {
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.sort-item-current {
+  color: #81b3d2;
+}
+
+.sort-item-dotted a {
+  color: #cacaca;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sort-item-dotted a:hover {
+  color: #81b3d2;
+}
+
+.sort-item-dotted a:active {
+  color: #000;
+}
+
+.sort-item-icon {
+
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item-block {
+  background-color: #fff;
+  text-align: center;
+}
+
+.catalog-item-title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.catalog-item-title:hover {
+color: #81b3d2;
+}
+
+.catalog-item-title:active {
+color: #cacaca;
+}
+
+.catalog-item-type {
+color: #333333;
+}
+
+.catalog-item-price {
+  color: #333333;
+}
+
+.catalog-item-button {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+
+}
+
+.catalog-item-button-detail {
+  background-color: #81b3d2;
+  vertical-align: middle;
+  border: none;
+  color: #ffffff;
+}
+
+/*В этом случае не меняется цвет кнопки "Подробнее", в то время, как такая же кнопка "Забронировать" изменяется в цвете при наведении*/
+.catalog-button-detail:hover {
+  background-color: #669ec0;
+  color: #ffffff;
+}
+
+.catalog-button-detail:active {
+  background-color: #5496bd;
+  color: #85b0cd;
+}
+
+.catalog-item-button {
+  background-color: #766357;
+  color: #ffffff;
+  vertical-align: middle;
+  border: none;
+}
+
+.catalog-item-button:hover {
+  background-color: #604e43;
+  color: #ffffff;
+}
+
+.catalog-item-button:active {
+  background-color: #503e33;
+  color: #928a85;
+}
