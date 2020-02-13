@@ -30,12 +30,20 @@ a {
   font-weight: 700;
 }
 
-.info-current {
-  color: #766357;
-}
-
 .header-navigation a {
   color: #000;
+}
+
+.header-navigation a:hover {
+  color: #81b3d2;
+}
+
+.header-navigation a:active {
+  color: #cacaca;
+}
+
+.info-current {
+  color: #766357;
 }
 
 .main-title {
@@ -61,6 +69,8 @@ a {
   background-color: #81b3d2;
   color: #fff;
   text-align: center;
+  width:400px;
+  height:256px;
 }
 
 .reason-content-list {
@@ -68,6 +78,12 @@ a {
 }
 
 .reason-content-item {
+  text-align: center;
+}
+
+.reason-item-white {
+  width:400px;
+  height:256px;
   text-align: center;
 }
 
@@ -195,6 +211,27 @@ a {
 /* Стили каталога*/
 .filter {
   background: #dceaf3 url("../img/filter-background.jpg") no-repeat center;
+}
+
+.filter-form fieldset {
+  border: none;
+}
+
+.filter-form legend {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.filter-title {
+  color: #fff;
+  text-align: center;
+}
+
+.filter-form ul {
+  list-style: none;
+  line-height: 31px;
+  color: #fff;
 }
 
 .filter-button {
