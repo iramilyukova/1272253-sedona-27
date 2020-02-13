@@ -19,7 +19,6 @@ a {
 }
 
 .main-header-logo {
-
 }
 
 .main-header-logo img {
@@ -248,7 +247,6 @@ a {
 }
 
 .sort-item-icon {
-
 }
 
 .catalog-list {
@@ -267,15 +265,15 @@ a {
 }
 
 .catalog-item-title:hover {
-color: #81b3d2;
+  color: #81b3d2;
 }
 
 .catalog-item-title:active {
-color: #cacaca;
+  color: #cacaca;
 }
 
 .catalog-item-type {
-color: #333333;
+  color: #333333;
 }
 
 .catalog-item-price {
@@ -286,7 +284,6 @@ color: #333333;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-
 }
 
 .catalog-item-button-detail {
