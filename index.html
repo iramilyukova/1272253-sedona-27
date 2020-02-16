@@ -8,27 +8,30 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="wrapper">
   <header class="main-header">
-    <nav class="main-navigation">
-      <a class="main-header-logo">
-        <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
-      </a>
-      <ul class="header-navigation">
-        <li class="info-current">Информация</li>
-        <li><a href="photo.html">Фото и видео</a></li>
-        <li><a href="map.html">Карта штата</a></li>
-        <li><a class="catalog" href="catalog.html">Гостиницы</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
+        </a>
+        <ul class="header-navigation">
+          <li class="info-current">Информация</li>
+          <li><a href="photo.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a class="catalog" href="catalog.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="container">
     <section class="main-title">
       <img class="main-title-image" src="img/intro-welcome.svg" width="1200" height="553" alt="Заставка Седоны">
     </section>
     <article class="about">
-      <h2 class="about-title-slogan">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
-      <p class="about-title-text">Рассмотрим пять причин, по которым седона круче, чем Гранд Каньен!</p>
+      <div class="box-title">
+        <h2 class="about-title-slogan">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p class="about-title-text">Рассмотрим пять причин, по которым седона круче, чем Гранд Каньен!</p>
+      </div>
       <section class="about-reason">
         <h2 class="visually-hidden">Список причин</h2>
         <ol class="reason-list">
@@ -95,53 +98,55 @@
       </section>
     </article>
     <section class="order-question">
-      <h2 class="order-question-title">Заинтересовались?</h2>
-      <p class="order-question-text">Укажите предполагаемые даты поездки, и мы покажем лучшие предложения гостиниц в Седоне</p>
-      <button class="order-question-bottom" type="button">Поиск гостиницы в Седоне</button>
-    </section>
-    <section class="order">
-      <h2 class="visually-hidden">Забронировать отель</h2>
-      <img class="order-image" src="img/map.png" width="1200" height="593" alt="Седона на Карте">
-      <form class="order-form" action="https://echo.htmlacademy.ru" method="post">
-        <p class="order-date">
-          <label class="order-title" for="appointment-data">Дата заезда</label>
-          <input class="order-text" type="text" id="appointment-data" name="date" placeholder="24 апреля 2017">
-          <buttom class="order-botton-calendar" type="button"><img src="img/calendar.svg" alt="Календарь"></button>
-        </p>
-        <p class="order-date">
-          <label class="order-title" for="departure-data">Дата выезда</label>
-          <input class="order-text" type="text" id="departure-data" name="date" placeholder="4 июля 2017">
-          <buttom class="order-botton-calendar"><img src="img/calendar.svg" alt="Календарь"></button>
-        </p>
-        <div class="order-people">
-          <label class="order-title" for="adults">Взрослые:</label>
-          <button class="order-botton-edit" type="button">-</button>
-          <input class="order-count-value" type="number" id="adults" value="2">
-          <button class="order-botton-edit" type="button">+</button>
-          <label class="order-title" for="child">Дети:</span>
-          <button class="order-botton-edit" type="button">-</button>
-          <input class="order-count-value" type="number" id="child" value="0">
-          <button class="order-botton-edit" type="button">+</button>
-        </div>
-        <button class="order-button" type="submit">Найти</button>
-      </form>
+      <div class="container">
+        <h2 class="order-question-title">Заинтересовались?</h2>
+        <p class="order-question-text">Укажите предполагаемые даты поездки, и мы покажем лучшие предложения гостиниц в Седоне</p>
+        <button class="order-question-bottom" type="button">Поиск гостиницы в Седоне</button>
+      </div>
+      <div class="order-container">
+        <h2 class="visually-hidden">Забронировать отель</h2>
+        <img class="order-image" src="img/map.png" width="1200" height="593" alt="Седона на Карте">
+      </div>
+      <div class="form-container">
+        <form class="order-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="order-date">
+            <label class="order-title" for="appointment-data">Дата заезда</label>
+            <input class="order-text" type="text" id="appointment-data" name="date" placeholder="24 апреля 2017">
+            <buttom class="order-botton-calendar" type="button"><img src="img/calendar.svg" alt="Календарь"></button>
+          </p>
+          <p class="order-date">
+            <label class="order-title" for="departure-data">Дата выезда</label>
+            <input class="order-text" type="text" id="departure-data" name="date" placeholder="4 июля 2017">
+            <buttom class="order-botton-calendar"><img src="img/calendar.svg" alt="Календарь"></button>
+          </p>
+          <div class="order-people">
+            <label class="order-title" for="adults">Взрослые:</label>
+            <button class="order-botton-edit" type="button">-</button>
+            <input class="order-count-value" type="number" id="adults" value="2">
+            <button class="order-botton-edit" type="button">+</button>
+            <label class="order-title" for="child">Дети:</span>
+            <button class="order-botton-edit" type="button">-</button>
+            <input class="order-count-value" type="number" id="child" value="0">
+            <button class="order-botton-edit" type="button">+</button>
+          </div>
+          <button class="order-button" type="submit">Найти</button>
+        </form>
+      </div>
     </section>
   </main>
   <footer class="main-footer">
-    <div>
-      <p class="footer-text footer-hashtag">#Visitsedona</p>
-      <p class="footer-text footer-phone">Тел:
-        <a href="tel:+74956660266">+7(495)666-02-66</a>
-      </p>
-    </div>
-    <div>
+    <div class="container">
+      <div class="footer-contacts">
+        <p class="footer-text footer-hashtag">#Visitsedona</p>
+        <p class="footer-text footer-phone">Тел:
+          <a href="tel:+74956660266">+7(495)666-02-66</a>
+        </p>
+      </div>
       <ul class="footer-social">
         <li><a class="social-button" href=""><img src="img/twitter.svg" width="17" height="15" alt="Твиттер"></a></li>
         <li><a class="social-button" href=""><img src="img/fb-icon.svg" width="12" height="22" alt="Фейсбук"></a></li>
         <li><a class="social-button" href=""><img src="img/youtube.svg" width="20" height="16" alt="Ютуб"></a></li>
       </ul>
-    </div>
-    <div>
       <p>
         <span class="footer-copyright">Website by</span>
         <a class="footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
@@ -149,7 +154,6 @@
         </a>
       </p>
     </div>
-   </div>
   </footer>
 </body>
 </html>
