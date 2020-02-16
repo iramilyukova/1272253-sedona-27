@@ -8,19 +8,20 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="wrapper">
   <header class="main-header">
-    <nav class="main-navigation">
-      <a class="header-logo-menu">
-        <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
-      </a>
-      <ul class="header-navigation">
-        <li><a class="header-navigation-info" href="index.html">Информация</a></li>
-        <li><a href="photo.html">Фото и видео</a></li>
-        <li><a href="map.html">Карта штата</a></li>
-        <li class="info-current">Гостиницы</li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седоны">
+        </a>
+        <ul class="header-navigation">
+          <li class="info-current">Информация</li>
+          <li><a href="photo.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a class="catalog" href="catalog.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="container">
     <section class="filter">
@@ -69,32 +70,35 @@
       </form>
     </section>
     <section class="result">
-      <h3 class="result-count">Найдено: 3</h3>
-      <span class="result-sort">Сортировка:</span>
-      <ul class="sort-list">
-        <li class="sort-item">
-          <span class="sort-item-current">По цене</span>
-        </li>
-        <li class="sort-item-dotted">
-          <a href="">По типу</a>
-        </li>
-        <li class="sort-item-dotted">
-          <a href="">По рейтингу</a>
-        </li>
-        <li>
-          <a href=""><img class="sort-item-icon" src="img/icon-down-dir.svg" width="11" height="10"></a>
-          <a href=""><img class="sort-item-icon" src="img/icon-up-dir.svg" width="11" height="10"></a>
-        </li>
-      </ul>
-    </section>
+        <h3 class="result-count">Найдено: 3</h3>
+        <span class="result-sort">Сортировка:</span>
+        <ul class="sort-list">
+          <li class="sort-item">
+            <span class="sort-item-current">По цене</span>
+          </li>
+          <li class="sort-item-dotted">
+            <a href="">По типу</a>
+          </li>
+          <li class="sort-item-dotted">
+            <a href="">По рейтингу</a>
+          </li>
+          <li>
+            <div class="item-icon">
+              <a href=""><img class="sort-item-icon" src="img/icon-down-dir.svg" width="11" height="10"></a>
+              <a href=""><img class="sort-item-icon" src="img/icon-up-dir.svg" width="11" height="10"></a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
     <section class="catalog">
-      <h2 class="visually-hidden">Список отелей</h2>
-      <ul class="catalog-list">
-        <li class="catalog-item">
-          <a href="">
-            <img class="catalog-item-img" src="img/amara.jpg" width="135" height="90" alt="Вид на гостиницу Amara Resort & spa">
-          </a>
-          <div class="catalog-item-block">
+        <h2 class="visually-hidden">Список отелей</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <a href="">
+              <img class="catalog-item-img" src="img/amara.jpg" width="135" height="90" alt="Вид на гостиницу Amara Resort & spa">
+            </a>
+            <div class="catalog-item-block">
             <h3 class="catalog-item-title">Amara Resort & spa</h3>
             <span class="catalog-item-type">Гостиница</span>
             <span class="catalog-item-price">От 4000 р.</span>

@@ -9,26 +9,20 @@ body {
 }
 
 .main-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1200px;
-  margin: 0;
-  padding: 0;
-  /* Временно для сетки */
   min-height: 53px;
 }
 
 .wrapper {
   width: 1200px;
-  padding-left: 73px;
-  padding-right: 73px;
   margin: 0 auto;
-  background-color: #fff;
 }
+.wrapper-header-color {
+  background-color: #fff;}
 
 .main-navigation {
   position: relative;
+  margin-left: 73px;
+  margin-right: 73px;
 }
 
 a {
@@ -52,7 +46,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1200px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -94,17 +87,15 @@ a {
 }
 
 .main-title {
-  width: 1200px;
   background: #dceaf3 url("../img/background-photo.jpg") no-repeat center;
   /* Временно для сетки */
-  min-height: 508px;
+  min-height: 57px;
 }
 
 .about {
-display: block;
-width: 1200px;
+  width: 1200px;
 /* Временно для сетки */
-height: 274px;
+  height: 274px;
 }
 
 .box-title {
