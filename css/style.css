@@ -292,11 +292,6 @@ a {
   background-color: #5496bd;
 }
 
-.main-footer {
-  padding: 36px 0;
-  background-color: #fff;
-}
-
 .footer-container {
   display: flex;
   flex-direction: row;
@@ -307,7 +302,7 @@ a {
   padding-left: 52px;
 }
 
-.footer-text .footer-hashtag {
+.footer-text.footer-hashtag {
   display:flex;
   align-items:center;
   justify-content:center;
@@ -320,7 +315,11 @@ a {
   text-align: center;
 }
 
-a .footer-text footer-phone {
+p.footer-text {
+  font-weight: bold;
+}
+
+.footer-text.footer-phone a {
   display:flex;
   align-items:center;
   justify-content:center;
@@ -419,7 +418,7 @@ a .footer-text footer-phone {
   color: #fff;
   vertical-align: middle;
   text-transform: uppercase;
-  border: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .filter-button:hover {
@@ -447,7 +446,8 @@ a .footer-text footer-phone {
   display:flex;
   align-items:center;
   height: 89px;
-  border: 1px solid #e5e5e5;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
 
 }
 .result-count {
@@ -495,6 +495,27 @@ a .footer-text footer-phone {
   margin-top: 0px;
 }
 
+.catalog-item {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  height: 153px;
+  border: 1px solid #e5e5e5;
+}
+
+.catalog-item-block1 {
+  width: 135px;
+  height: 92px;
+  padding-left: 73px;
+}
+
+.catalog-item-block2 {
+  width: 263px;
+  height: 150px;
+  padding-left: 27px;
+}
+
 .catalog-item-title {
   font-size: 21px;
   line-height: 26px;
@@ -521,6 +542,20 @@ a .footer-text footer-phone {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
+  background-color: #766357;
+  color: #ffffff;
+  vertical-align: middle;
+  border: none;
+}
+
+.catalog-item-button:hover {
+  background-color: #604e43;
+  color: #ffffff;
+}
+
+.catalog-item-button:active {
+  background-color: #503e33;
+  color: #928a85;
 }
 
 .catalog-item-button-detail {
@@ -540,19 +575,13 @@ a .footer-text footer-phone {
   color: #85b0cd;
 }
 
-.catalog-item-button {
-  background-color: #766357;
-  color: #ffffff;
-  vertical-align: middle;
-  border: none;
+.catalog-item-block3 {
+  width: 112px;
+  height: 155px;
+  padding-left: 27px;
 }
 
-.catalog-item-button:hover {
-  background-color: #604e43;
-  color: #ffffff;
-}
-
-.catalog-item-button:active {
-  background-color: #503e33;
-  color: #928a85;
+.catalog-item-icon {
+  position: absolute;
+  margin-left: 73px;
 }
