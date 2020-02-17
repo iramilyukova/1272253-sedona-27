@@ -87,8 +87,7 @@ a {
 
 .main-title {
   background: #dceaf3 url("../img/background-photo.jpg") no-repeat center;
-  /* Временно для сетки */
-  min-height: 724px;}
+}
 
 .main-title img {
   padding-top: 78px;
@@ -97,8 +96,6 @@ a {
 
 .about {
   width: 1200px;
-/* Временно для сетки */
-  height: 274px;
 }
 
 .box-title {
@@ -229,9 +226,9 @@ a {
 .form-container {
   display: flex;
   align-items:center;
-  width:575px;
-  height:480px;
-  margin:0px auto;
+  width: 575px;
+  height: 480px;
+  margin: 0px auto;
 }
 
 .order-form {
@@ -298,11 +295,6 @@ a {
 .main-footer {
   padding: 36px 0;
   background-color: #fff;
-  margin-left: 74px;
-  margin-right: 74px;
-
-  /* Временно для сетки */
-  min-height: 120px;
 }
 
 .footer-container {
@@ -311,8 +303,7 @@ a {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  width:1200px;
-  height:120px;
+  height: 120px;
   padding-left: 52px;
 }
 
@@ -321,6 +312,7 @@ a {
   align-items:center;
   justify-content:center;
   font-weight: bold;
+  flex-basis: 400px;
   height: 18px;
   width: 136px;
   font-size: 21px;
@@ -345,8 +337,8 @@ a .footer-text footer-phone {
   display: flex;
   align-items:center;
   justify-content:center;
-  flex-basis:400px;
-  height:120px;
+  flex-basis: 400px;
+  height: 120px;
   margin: 0px;
 }
 
@@ -361,7 +353,7 @@ a .footer-text footer-phone {
   align-items:center;
   justify-content:center;
   flex-basis: 400px;
-  height:120px;
+  height: 120px;
 }
 
 .footer-copyright {
@@ -391,48 +383,48 @@ a .footer-text footer-phone {
 }
 
 .filter-column3 {
-  width: 328;
+  width: 328px;
   min-height: 215px;
 }
 
 .filter {
- background: #dceaf3 url("../img/filter-background.jpg") no-repeat center;
- height: 215px;
+  background: #dceaf3 url("../img/filter-background.jpg") no-repeat center;
+  height: 215px;
 }
 
 .filter-form fieldset {
- border: none;
+  border: none;
 }
 
 .filter-form legend {
- font-size: 16px;
- line-height: 21px;
- text-align: center;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
 }
 
 .filter-title {
- color: #fff;
- text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
 .filter-form ul {
- list-style: none;
- line-height: 31px;
- color: #fff;
+  list-style: none;
+  line-height: 31px;
+  color: #fff;
 }
 
 .filter-button {
- background-color: transparent;
- text-align: center;
- color: #fff;
- vertical-align: middle;
- text-transform: uppercase;
- border: 1px solid #fff;
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: 1px solid #fff;
 }
 
 .filter-button:hover {
- background-color: #fff;
- color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 .container-result {
@@ -504,63 +496,63 @@ a .footer-text footer-phone {
 }
 
 .catalog-item-title {
- font-size: 21px;
- line-height: 26px;
- font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
 }
 
 .catalog-item-title:hover {
- color: #81b3d2;
+  color: #81b3d2;
 }
 
 .catalog-item-title:active {
- color: #cacaca;
+  color: #cacaca;
 }
 
 .catalog-item-type {
- color: #333333;
+  color: #333333;
 }
 
 .catalog-item-price {
- color: #333333;
+  color: #333333;
 }
 
 .catalog-item-button {
- font-size: 14px;
- line-height: 21px;
- font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .catalog-item-button-detail {
- background-color: #81b3d2;
- vertical-align: middle;
- border: none;
- color: #ffffff;
+  background-color: #81b3d2;
+  vertical-align: middle;
+  border: none;
+  color: #ffffff;
 }
 
 .catalog-item-button-detail:hover {
- background-color: #669ec0;
- color: #ffffff;
+  background-color: #669ec0;
+  color: #ffffff;
 }
 
 .catalog-item-button-detail:active {
- background-color: #5496bd;
- color: #85b0cd;
+  background-color: #5496bd;
+  color: #85b0cd;
 }
 
 .catalog-item-button {
- background-color: #766357;
- color: #ffffff;
- vertical-align: middle;
- border: none;
+  background-color: #766357;
+  color: #ffffff;
+  vertical-align: middle;
+  border: none;
 }
 
 .catalog-item-button:hover {
- background-color: #604e43;
- color: #ffffff;
+  background-color: #604e43;
+  color: #ffffff;
 }
 
 .catalog-item-button:active {
- background-color: #503e33;
- color: #928a85;
+  background-color: #503e33;
+  color: #928a85;
 }
