@@ -101,14 +101,14 @@ a {
 .box-title {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   height: 219px;
 }
 
 .about-title-slogan {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 50px;
   width: 442px;
   font-size: 21px;
@@ -117,9 +117,9 @@ a {
 }
 
 .about-title-text {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 12px;
   width: 100%;
   line-height: 26px;
@@ -172,9 +172,9 @@ a {
 }
 
 .order-question-title {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 24px;
   width: 298px;
   font-size: 30px;
@@ -185,9 +185,9 @@ a {
 }
 
 .order-question-text {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 37px;
   width: 436px;
   font-size: 14px;
@@ -197,9 +197,9 @@ a {
   margin-bottom: 55px;
 }
 .order-question-bottom {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 88px;
   width: 575px;
   font-size: 21px;
@@ -225,7 +225,7 @@ a {
 
 .form-container {
   display: flex;
-  align-items:center;
+  align-items: center;
   width: 575px;
   height: 480px;
   margin: 0px auto;
@@ -303,9 +303,9 @@ a {
 }
 
 .footer-text.footer-hashtag {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   flex-basis: 400px;
   height: 18px;
@@ -320,9 +320,9 @@ p.footer-text {
 }
 
 .footer-text.footer-phone a {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   height: 18px;
   width: 227px;
@@ -334,8 +334,8 @@ p.footer-text {
 
 .container .footer-social {
   display: flex;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
   flex-basis: 400px;
   height: 120px;
   margin: 0px;
@@ -349,8 +349,8 @@ p.footer-text {
 
 .container .footer-copyright {
   display: flex;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
   flex-basis: 400px;
   height: 120px;
 }
@@ -358,7 +358,6 @@ p.footer-text {
 .footer-copyright {
   margin: 0px;
   padding: 0px;
-
 }
 /* Стили каталога*/
 .visually-hidden {
@@ -443,16 +442,16 @@ p.footer-text {
 }
 
 .container-result {
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   height: 89px;
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
 
 }
 .result-count {
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   justify-content: start;
   width: 115px;
   height: 24px;
@@ -460,7 +459,6 @@ p.footer-text {
   line-height: 26px;
   font-weight: 700;
   margin: 0;
-
 }
 
 .result-sort {
