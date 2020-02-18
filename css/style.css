@@ -449,16 +449,20 @@ p.footer-text {
   border-bottom: 1px solid #e5e5e5;
 
 }
+
 .result-count {
   display: flex;
   align-items: center;
   justify-content: start;
   width: 115px;
   height: 24px;
+  margin: 0;
+}
+
+h3 .result-count {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  margin: 0;
 }
 
 .result-sort {
@@ -576,10 +580,7 @@ p.footer-text {
 .catalog-item-block3 {
   width: 112px;
   height: 155px;
-  padding-left: 27px;
-}
-
-.catalog-item-icon {
   position: absolute;
-  margin-left: 73px;
+  margin-left: 1020px;
+  top: 92px;
 }
