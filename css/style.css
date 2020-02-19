@@ -125,21 +125,13 @@ text-align: right;
   padding-bottom: 40px;
 }
 
-.reason-item-white {
-  background-color: #fff;
-  text-align: center;
-  width: 400px;
-  padding-top:;
-  padding-bottom:;
+.reason-content-item-title {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700px;
 }
 
-.reason-content-item-icon {
-  padding-top: 60px;
-  margin: 0 auto;
-}
-
-.reason-item-image {
-  width: 800px;
+.reason-content-item-text {
 }
 
 .reasons-content-list {
@@ -150,18 +142,42 @@ text-align: right;
 }
 
 .reason-content-item {
-  text-align: center;
   width: 400px;
   vertical-align: middle;
 }
 
-.reason-content-item-title {
+.reason-item-white {
+  background-color: #fff;
+  text-align: center;
+  width: 400px;
+  padding-top:;
+  padding-bottom:;
+}
+
+.reason-content-item-icon {
+  display: block;
+  padding-top: 60px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+.reason-item-image {
+  width: 800px;
+}
+
+.reason-content-item-title-white {
+  text-align: center;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700px;
+
 }
 
-.reason-content-item-text {
+.reason-content-item-text-1 {
+  padding-top: 30px;
+  padding-bottom: 88px;
+  padding-left: 73px;
+  padding-right: 73px;
 }
 
 .reason-item-gray {
@@ -311,9 +327,13 @@ text-align: right;
   background-color: #5496bd;
 }
 
+.main-footer {
+
+}
+
 .footer-container {
   display: flex;
-  align-items: center; 
+  align-items: center;
   margin: 0;
   padding: 0;
   padding-left: 52px;
@@ -350,7 +370,6 @@ text-align: right;
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-top: -36px;
   margin-left: 170px;
 }
 
@@ -359,7 +378,6 @@ text-align: right;
   width: 48px;
   height: 48px;
   margin-right: 7px;
-  margin-top: 36px;
 }
 
 .social-tw {
@@ -379,7 +397,6 @@ text-align: right;
 
 .footer-copyright {
   margin-left: 903px;
-  margin-top: -40px;
 }
 
 .footer-logo {
