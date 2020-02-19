@@ -124,10 +124,19 @@ text-align: right;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/*
-.reason-item-gray {
-  background-color: #eeeeee;
-}*/
+
+.reason-item-white {
+  background-color: #fff;
+  text-align: center;
+  width: 400px;
+  padding-top:;
+  padding-bottom:;
+}
+
+.reason-content-item-icon {
+  padding-top: 60px;
+  margin: 0 auto;
+}
 
 .reason-item-image {
   width: 800px;
@@ -153,6 +162,15 @@ text-align: right;
 }
 
 .reason-content-item-text {
+}
+
+.reason-item-gray {
+  background-color: #eeeeee;
+  color: #000;
+  text-align: center;
+  width: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .order-question {
@@ -295,6 +313,7 @@ text-align: right;
 
 .footer-container {
   display: flex;
+  align-items: center; 
   margin: 0;
   padding: 0;
   padding-left: 52px;
@@ -365,12 +384,9 @@ text-align: right;
 
 .footer-logo {
   display: inline-block;
-}
-
-.footer-logo img {
-  display: inline-block;
   vertical-align: middle;
 }
+
 
 /* Стили каталога*/
 .visually-hidden {
