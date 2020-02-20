@@ -135,16 +135,30 @@ text-align: right;
   text-align: center;
   font-size: 21px;
   line-height: 21px;
-  margin-bottom: 20px;
-
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .reason-item-number {
   display: block;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
-.reason-content-item-text {
- margin-top: 30px;
+.reason-item-text-blue-1 {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.reason-item-text-blue-2 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.reason-content-item-text-gray {
+  max-width: 70%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .reasons-content-list {
@@ -153,10 +167,10 @@ text-align: right;
   margin: 0;
   padding: 0;
 }
-
+/*
 .reason-content-item {
   width: 33.33%;
-}
+}*/
 
 .reason-item-white {
   background-color: #fff;
@@ -626,5 +640,6 @@ h3 .result-count {
 .catalog-item-block3 {
   width: 112px;
   height: 155px;
+
   margin-left: auto;
 }
