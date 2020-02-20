@@ -61,8 +61,9 @@ a {
   color: #cacaca;
 }
 
-.info-current {
+.info-current a {
   color: #766357;
+  padding: 18px 0;
 }
 
 .header-navigation li {
@@ -81,7 +82,13 @@ text-align: right;
 
 .main-title {
   background: #dceaf3 url("../img/background-photo.jpg") no-repeat center;
+  padding-bottom: 90px;
   padding-top: 78px;
+}
+
+.main-title img {
+  display: block;
+  margin: 0 auto;
 }
 
 .box-title {
@@ -93,7 +100,7 @@ text-align: right;
   line-height: 26px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 65px;
+  padding-top: 60px;
 }
 
 .about-title-text {
@@ -103,7 +110,7 @@ text-align: right;
   font-weight: 400;
   font-size: 14px;
   margin-bottom: 58px;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 .reasons-list {
@@ -120,18 +127,24 @@ text-align: right;
   background-color: #81b3d2;
   color: #fff;
   text-align: center;
-  width: 400px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .reason-content-item-title {
+  text-align: center;
   font-size: 21px;
   line-height: 21px;
-  font-weight: 700px;
+  margin-bottom: 20px;
+
+}
+
+.reason-item-number {
+  display: block;
 }
 
 .reason-content-item-text {
+ margin-top: 30px;
 }
 
 .reasons-content-list {
@@ -142,23 +155,22 @@ text-align: right;
 }
 
 .reason-content-item {
-  width: 400px;
-  vertical-align: middle;
+  width: 33.33%;
 }
 
 .reason-item-white {
   background-color: #fff;
   text-align: center;
   width: 400px;
-  padding-top:;
-  padding-bottom:;
+  padding-top: 63px;
+  padding-bottom: 88px;
 }
 
 .reason-content-item-icon {
   display: block;
-  padding-top: 60px;
   margin: 0 auto;
-  padding-bottom: 32px;
+  width: 75px;
+  height: 75px;
 }
 
 .reason-item-image {
@@ -169,15 +181,15 @@ text-align: right;
   text-align: center;
   font-size: 21px;
   line-height: 21px;
-  font-weight: 700px;
-
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
-.reason-content-item-text-1 {
-  padding-top: 30px;
-  padding-bottom: 88px;
-  padding-left: 73px;
-  padding-right: 73px;
+.reason-content-item-text {
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .reason-item-gray {
@@ -185,12 +197,13 @@ text-align: right;
   color: #000;
   text-align: center;
   width: 400px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 65px;
 }
 
 .order-question {
   width: 1200px;
+  padding-top: 58px;
 }
 
 .order-question-title {
@@ -200,6 +213,7 @@ text-align: right;
   text-align: center;
   margin-bottom: 38px;
   margin-top: 0;
+  padding-top: 57px;
 }
 
 .order-question-text {
@@ -273,6 +287,7 @@ text-align: right;
 
 .order-botton-calendar {
   position: absolute;
+  left: 920px;
 }
 
 .order-people {
@@ -327,37 +342,20 @@ text-align: right;
   background-color: #5496bd;
 }
 
-.main-footer {
-
-}
-
-.footer-container {
+.main-footer .wrapper {
   display: flex;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  padding-left: 52px;
-  padding-right: 179px;
-}
-
-.footer-contacts {
-  margin-bottom: 36px;
-}
-
-.footer-hashtag {
-  font-weight: bold;
-  width: 136px;
-  font-size: 21px;
-  line-height: 26px;
-  text-align: center;
-  padding-left: 115px;
+  padding-top: 36px;
+  padding-bottom: 32px;
+  padding-left: 123px;
+  padding-right: 101px;
+  box-sizing: border-box;
 }
 
 .footer-text {
-  font-weight: bold;
-  font-size: 21px;
   margin: 0;
-  padding-left: 115px;
+  font-size: 21px;
+  font-weight: 700;
 }
 
 .footer-phone a {
@@ -366,18 +364,27 @@ text-align: right;
 
 .footer-social {
   display: flex;
-  flex-basis: 400px;
   list-style: none;
   padding: 0;
+  margin: 0 auto;
+}
+
+.footer-social li {
+  margin-right: 6px;
+}
+
+.footer-social li:last-child {
   margin: 0;
-  margin-left: 170px;
+}
+
+.footer-ccopiring {
+  margin: 0;
 }
 
 .social-button {
-  display: inline-block;
+  display: block;
   width: 48px;
   height: 48px;
-  margin-right: 7px;
 }
 
 .social-tw {
@@ -395,10 +402,6 @@ text-align: right;
   background-position: 50%;
 }
 
-.footer-copyright {
-  margin-left: 903px;
-}
-
 .footer-logo {
   display: inline-block;
   vertical-align: middle;
@@ -406,9 +409,6 @@ text-align: right;
 
 
 /* Стили каталога*/
-.visually-hidden {
-  margin: 0;
-}
 
 .filter-columns {
   display: flex;
@@ -626,7 +626,5 @@ h3 .result-count {
 .catalog-item-block3 {
   width: 112px;
   height: 155px;
-  position: absolute;
-  margin-left: 1020px;
-  top: 92px;
+  margin-left: auto;
 }
