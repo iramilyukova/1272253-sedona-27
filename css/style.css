@@ -435,6 +435,14 @@ text-align: right;
   width: 156;
 }
 
+.filter-list input[type="checkbox"] {
+  display: none;
+}
+
+.filter-item input[type="checkbox"] {
+  display: none;
+}
+
 .filter-form legend {
   font-weight: 700;
 }
@@ -602,6 +610,7 @@ sort-item-icon-1 {
 
 .visually-hidden {
   margin: 0px;
+  display: none;
 }
 
 .catalog-list {
