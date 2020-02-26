@@ -657,18 +657,6 @@ text-align: right;
 
 .item-icon {
   margin-left: auto;
-  fill: #a9a9a9;
-}
-
-.sort-item-icon-1 svg {
-  margin-right: 6px;
-  display: inline-block;
-  fill: #a9a9a9;
-}
-
-.sort-item-icon-2 svg {
-  display: inline-block;
-  fill: #a9a9a9;
 }
 
 .icon-box {
