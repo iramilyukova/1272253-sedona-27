@@ -367,6 +367,7 @@ text-align: right;
 .order-button-edit {
   color: #a9a9a9;
   border: none;
+  outline: none;
   width: 38px;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -386,14 +387,14 @@ transform: translate(-50%, -50%);
 background-color: #a9a9a9;
 }
 
-.order-button-edit:hover::before:,
+.order-button-edit:hover::before,
 .order-button-edit:hover::after {
-  fill: #000000;
+  background-color: #000;
 }
 
-.order-button-edit:focus::before:,
+.order-button-edit:focus::before,
 .order-button-edit:focus::after {
-  fill: #81b3d2;
+  background-color:  #81b3d2;
 }
 
 .order-button-edit-plus::after {
@@ -401,11 +402,11 @@ background-color: #a9a9a9;
 }
 
 .order-button-edit-plus:hover::after {
-  fill: #000000;
+  background-color: #000;
 }
 
 .order-button-edit-plus:focus::after {
-  fill: #81b3d2;
+  background-color: #81b3d2;
 }
 
 .order-count-value {
@@ -431,13 +432,14 @@ background-color: #a9a9a9;
   font-weight: 700px;
 }
 
-.oreder-button:hover {
-  background-color: #fff;
+.order-button:hover {
+  background-color: #669ec0;
   color: #fff;
 }
 
-.oreder-button:focus {
+.order-button:focus {
   background-color: #5496bd;
+  color: #94b9d2;
 }
 
 .main-footer .wrapper {
@@ -481,30 +483,39 @@ background-color: #a9a9a9;
 }
 
 .social-button {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 48px;
+  background-color: #81b3d2;
 }
 
-.social-tw {
-  background: #81b3d2 url(../img/twitter.svg) no-repeat;
-  background-position: 50%;
+.social-button:hover {
+  background-color: #669ec0;
 }
 
-.social-fb {
-  background: #81b3d2 url(../img/fb-icon.svg) no-repeat;
-  background-position: 50%;
+.social-button:focus {
+  background-color: #5496bd;
 }
 
-.social-you {
-  background: #81b3d2 url(../img/youtube.svg) no-repeat;
-  background-position: 50%;
+.social-button:focus path {
+  fill: #88b6d1;
 }
 
 .footer-logo {
   display: inline-block;
   vertical-align: middle;
 }
+
+.footer-logo:hover path {
+  fill: #81b3d2;
+}
+
+.footer-logo:focus path {
+  fill: #bdbbbc;
+}
+
 /* Стили каталога*/
 .filter-columns {
   display: flex;
@@ -721,7 +732,7 @@ background-color: #a9a9a9;
   fill: #81b3d2;
 }
 
-.sort-item-icon-2 .current:active svg {
+.sort-item-icon-2.current svg {
   fill: #81b3d2;
 }
 
