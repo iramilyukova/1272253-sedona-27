@@ -64,6 +64,7 @@ a {
 .info-current a {
   color: #766357;
   padding: 18px 0;
+  cursor: pointer;
 }
 
 .info-current a:hover {
@@ -85,6 +86,7 @@ text-align: right;
 }
 
 .main-title {
+  position: relative;
   background: #dceaf3 url("../img/background-photo.jpg") no-repeat center;
   padding-bottom: 90px;
   padding-top: 78px;
@@ -95,6 +97,15 @@ text-align: right;
   margin: 0 auto;
 }
 
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 57px;
+  left: 0px;
+  bottom: 0px;
+  background: url("../img/intro-mask.svg") no-repeat center;
+}
+
 .about-title-slogan {
   width: 442px;
   font-size: 21px;
@@ -102,6 +113,7 @@ text-align: right;
   text-align: center;
   margin: 0 auto;
   padding-top: 60px;
+  cursor: default;
 }
 
 .about-title-text {
@@ -112,6 +124,7 @@ text-align: right;
   font-size: 14px;
   margin-bottom: 58px;
   margin-top: 35px;
+  cursor: default;
 }
 
 .reasons-list {
@@ -130,6 +143,7 @@ text-align: right;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+  cursor: default;
 }
 
 .reason-content-item-title-blue {
@@ -140,6 +154,7 @@ text-align: right;
   margin-bottom: 30px;
   max-width: 50%;
   margin: 0 auto;
+  cursor: default;
 }
 
 .reason-content-item-title{
@@ -148,12 +163,14 @@ text-align: right;
   line-height: 21px;
   margin: 0;
   margin-bottom: 30px;
+  cursor: default;
 }
 
 .reason-item-number {
   display: block;
   margin: 0;
   margin-bottom: 25px;
+  cursor: default;
 }
 
 .reason-item-text-blue-1 {
@@ -164,12 +181,14 @@ text-align: right;
 .reason-item-text-blue-2 {
   max-width: 80%;
   margin: 0 auto;
+
 }
 
 .reason-content-item-text-gray {
   max-width: 70%;
   margin: 0 auto;
   padding-bottom: 20px;
+  cursor: default;
 }
 
 .reasons-content-list {
@@ -185,6 +204,7 @@ text-align: right;
   width: 400px;
   padding-top: 63px;
   padding-bottom: 88px;
+  cursor: default;
 }
 
 .reason-content-item-icon {
@@ -236,6 +256,7 @@ text-align: right;
   margin-bottom: 38px;
   margin-top: 0;
   padding-top: 57px;
+  cursor: default;
 }
 
 .order-question-text {
@@ -244,6 +265,7 @@ text-align: right;
   font-weight: 400;
   text-align: center;
   margin-bottom: 55px;
+  cursor: default;
 }
 
 .order-question-button {
@@ -261,6 +283,7 @@ text-align: right;
   padding-bottom: 30px;
   padding-left: 140px;
   padding-right: 140px;
+  cursor: pointer;
 }
 
 .order-question-button:hover {
@@ -331,6 +354,7 @@ text-align: right;
   top: 50%;
   transform: translate(0, -50%);
   right: 9px;
+  cursor: pointer;
 }
 
 .order-button-calendar svg {
@@ -373,6 +397,7 @@ text-align: right;
   padding-bottom: 6px;
   position: relative;
   background-color: #f2f2f2;
+  cursor: pointer;
 }
 
 .order-button-edit::before,
@@ -430,6 +455,7 @@ background-color: #a9a9a9;
   margin-top: 54px;
   padding: 15px 0;
   font-weight: 700px;
+  cursor: pointer;
 }
 
 .order-button:hover {
@@ -456,6 +482,7 @@ background-color: #a9a9a9;
   margin: 0;
   font-size: 21px;
   font-weight: 700;
+  cursor: default;
 }
 
 .footer-phone a {
@@ -478,8 +505,9 @@ background-color: #a9a9a9;
   margin: 0;
 }
 
-.footer-ccopiring {
+.footer-copiring {
   margin: 0;
+  cursor: default;
 }
 
 .social-button {
@@ -506,13 +534,14 @@ background-color: #a9a9a9;
 .footer-logo {
   display: inline-block;
   vertical-align: middle;
+  cursor: default;
 }
 
-.footer-logo:hover path {
+.footer-logo:hover svg {
   fill: #81b3d2;
 }
 
-.footer-logo:focus path {
+.footer-logo:focus svg {
   fill: #bdbbbc;
 }
 
@@ -566,6 +595,7 @@ background-color: #a9a9a9;
   font-size: 16px;
   line-height: 21px;
   text-align: center;
+  cursor: default;
 }
 
 .filter-list {
@@ -582,11 +612,11 @@ background-color: #a9a9a9;
   padding-left: 40px;
 }
 
-.filter-item:last-child{
+.filter-item :last-child{
   margin-bottom: 0;
 }
 
-.filter-list label::before {
+.filter-item label::before {
   content: "";
   position: absolute;
   top: 2px;
@@ -596,6 +626,7 @@ background-color: #a9a9a9;
   border: 2px solid #fff;
   background-color: transparent;
   border-radius: 10%;
+  cursor: pointer;
 }
 
 .filter-column-1 {
@@ -640,6 +671,7 @@ background-color: #a9a9a9;
   padding-bottom: 10px;
   padding-left: 35px;
   padding-right: 33px;
+  cursor: pointer;
 }
 
 .filter-button:hover {
@@ -661,12 +693,14 @@ background-color: #a9a9a9;
   font-weight: 700;
   text-align: left;
   flex-basis: 165px;
+  cursor: default;
 }
 
 .result-sort {
   flex-basis: 115px;
   font-size: 12px;
   line-height: 18px;
+  cursor: default;
 }
 
 .sort-list {
@@ -681,6 +715,7 @@ background-color: #a9a9a9;
 
 .sort-item-current {
   color: #81b3d2;
+  cursor: default;
 }
 
 .sort-item-dotted a {
@@ -808,6 +843,7 @@ background-color: #a9a9a9;
   margin: 0;
   margin-bottom: 6px;
   width: 100%;
+  cursor: pointer;
 }
 
 .catalog-item-title:hover {
@@ -878,10 +914,6 @@ background-color: #a9a9a9;
   width: 112px;
 }
 
-.catalog-item-icon {
-
-}
-
 .border-rating {
   background-color: #f2f2f2;
   color: #666;
@@ -889,6 +921,7 @@ background-color: #a9a9a9;
   padding-right: 13px;
   padding-top: 6px;
   padding-bottom: 6px;
+  cursor: default;
 }
 
 .catalog-item-rating {
