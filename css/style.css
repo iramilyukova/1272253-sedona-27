@@ -33,9 +33,7 @@ a {
   margin-bottom: 0px;
   width: 138px;
   height: 71px;
-}
-
-.main-header-logo img {
+  z-index: 1;
 }
 
 .header-navigation {
@@ -90,6 +88,7 @@ text-align: right;
   background: #dceaf3 url("../img/background-photo.jpg") no-repeat center;
   padding-bottom: 90px;
   padding-top: 78px;
+  margin-bottom: 18px;
 }
 
 .main-title img {
@@ -103,7 +102,7 @@ text-align: right;
   height: 57px;
   left: 0px;
   bottom: 0px;
-  background: url("../img/intro-mask.svg") no-repeat center;
+  background: url("../img/intro-mask.svg") no-repeat;
 }
 
 .about-title-slogan {
@@ -112,7 +111,8 @@ text-align: right;
   line-height: 26px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 60px;
+  margin-top: 0;
+  padding-top: 50px;
   cursor: default;
 }
 
@@ -534,7 +534,6 @@ background-color: #a9a9a9;
 .footer-logo {
   display: inline-block;
   vertical-align: middle;
-  cursor: default;
 }
 
 .footer-logo:hover svg {
