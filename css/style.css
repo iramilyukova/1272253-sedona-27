@@ -85,10 +85,10 @@ text-align: right;
 
 .main-title {
   position: relative;
-  background: #dceaf3 url("../img/background-photo.jpg") no-repeat center;
-  padding-bottom: 90px;
-  padding-top: 78px;
+  background: #dceaf3 url(../img/background-photo.jpg) no-repeat 0px -52px;
   margin-bottom: 18px;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 .main-title img {
@@ -641,12 +641,18 @@ background-color: #a9a9a9;
 .filter-column-3 {
   width: 318px;
   margin-left: auto;
+  width: 330px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .filter-title {
-  color: #fff;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 9px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
 }
 
 .filter-form ul {
@@ -656,20 +662,100 @@ background-color: #a9a9a9;
   margin: 0;
 }
 
-.filter-button {
-  background-color: transparent;
-  text-align: center;
-  color: #fff;
-  vertical-align: middle;
-  text-transform: uppercase;
+.filter-price {
+  position: relative;
+  height: 36px;
+  font-size: 0;
+  margin-bottom: 20px;
   border: 2px solid #fff;
-  width: 132px;
+  border-radius: 2px;
+}
+
+.filter-price::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 22px;
+  background: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.filter-price label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.filter-price .min-price,
+.filter-price .max-price {
+  width: 90px;
+  padding-left: 65px;
+}
+
+.filter-price input {
+  width: 50px;
   margin: 0;
+  color: #fff;
+  font: inherit;
+  background: none;
+  border: none;
+}
+
+.filter-range  {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.filter-range .scale {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.filter-range .bar {
+  width: 80%;
+  height: 2px;
+  background: #fff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.filter-button {
   display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 35px;
-  padding-right: 33px;
+  margin: 0 auto;
+  padding: 6px 35px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
   cursor: pointer;
 }
 

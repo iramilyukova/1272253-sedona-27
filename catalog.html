@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy:Седона</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -68,6 +68,17 @@
                   </div>
                   <div class="filter-column-3">
                     <legend class="filter-title">Стоимость услуги в сутки (Р):</legend>
+                    <div class="filter-price">
+                      <label class="min-price">от <input type="number" name="min-price" value="0"></label>
+                      <label class="max-price">до <input type="number" name="max-price" value="3000"></label>
+                    </div>
+                    <div class="filter-range">
+                      <div class="scale">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="range-toggle range-toggle-min"></div>
+                      <div class="range-toggle range-toggle-max"></div>
+                    </div>
                     <button class="filter-button" type="submit">Показать</button>
                   </div>
                 </div>
