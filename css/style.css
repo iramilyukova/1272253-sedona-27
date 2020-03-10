@@ -342,7 +342,7 @@ a {
 
 @keyframes bounce {
   0% {
-    transform: translateY(-2000px);
+    transform: translateY(0px);
   }
 
   70% {
@@ -361,7 +361,7 @@ a {
 @keyframes shake {
   0%,
   100% {
-    transform: translateX(0);
+    transform: translateX(0px);
   }
 
   10%,
@@ -388,7 +388,7 @@ a {
   display: none;
   top: 0;
   left: 50%;
-  transform: translate(-50%, 0);
+  margin-left: -284px;
   background-color: #fff;
 }
 
