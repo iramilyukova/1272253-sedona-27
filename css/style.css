@@ -328,6 +328,10 @@ a {
   color: #928a85;
 }
 
+.field-error {
+  border: 1px solid red;
+}
+
 .order-container {
   position:relative;
 }
@@ -338,10 +342,6 @@ a {
 
 .form-image {
   display: block;
-}
-
-.field-error {
- border: 1px solid red;
 }
 
 @keyframes bounce {
@@ -401,7 +401,7 @@ a {
   display: flex;
   position: relative;
   margin-top: 0;
-  margin-bottom: 29px;
+  margin-bottom: 25px;
   align-items: center;
 }
 
@@ -416,7 +416,7 @@ a {
   color: #000;
   font-weight: 700;
   background-color: #f2f2f2;
-  border: none;
+  outline: none;
   width: 346px;
   box-sizing: border-box;
   padding-top: 6px;
@@ -424,6 +424,7 @@ a {
   text-transform: uppercase;
   margin-left: auto;
   padding-left: 12px;
+  border: 2px solid transparent;
 }
 
 .order-text:hover {
@@ -431,11 +432,27 @@ a {
 }
 
 .order-text:focus {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
 }
 
-.order-date input {
-  border: 1px solid transparent;
+.order-text::-webkit-input-placeholder {
+  color:#000;
+}
+
+.order-text::-moz-placeholder {
+  color:#000;
+}
+
+.order-text:-moz-placeholder {
+  color:#000;
+}
+
+.order-text:-ms-input-placeholder {
+  color:#000;
+}
+
+.field-error {
+  border-color: red;
 }
 
 .order-button-calendar {
@@ -927,6 +944,7 @@ a {
 
 .sort-item-dotted{
   padding-top: 2px;
+
 }
 
 .sort-item-current {
@@ -939,6 +957,7 @@ a {
   color: #b1b1b1;
   text-decoration: underline;
   text-decoration-style: dotted;
+  text-decoration-color: #81b3d2;
 }
 
 .sort-item-dotted a:hover {
