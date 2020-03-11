@@ -39,15 +39,17 @@ button.addEventListener("click", function (evt) {
 });
 
 form.addEventListener("submit", function (evt) {
-  evt.preventDefault();
 
   if (appointment.value && departure.value && isStorageSupport) {
     localStorage.setItem("adults", adults.value);
     localStorage.setItem("child", child.value);
+    inputOrderText.classList.remove("field-error");
   } else {
+    evt.preventDefault();
     popup.classList.remove("form-error");
     popup.offsetWidth = popup.offsetWidth;
     popup.classList.add("form-error");
+    inputOrderText.classList.add("field-error");
     console.log("Нужно ввести даты заезда");
   }
 });
