@@ -21,18 +21,26 @@ try {
   isStorageSupport = false;
 }
 
+appointment.addEventListener("keyup", function () {
+  this.classList.remove("field-error");
+});
+
+departure.addEventListener("keyup", function () {
+  this.classList.remove("field-error");
+});
+
 button.addEventListener("click", function (evt) {
   popup.classList.add("form-show");
 
   if (adultsStorage) {
     adults.value = adultsStorage;
 
-    if (childStorage) {
+  if (childStorage) {
       child.value = childStorage;
-    }
-    else{
-      child.focus();
-    }
+  }
+  else{
+    child.focus();
+  }
   }
   else {
     adults.focus();
@@ -51,11 +59,11 @@ form.addEventListener("submit", function (evt) {
   else {
     evt.preventDefault();
 
-    if(appointment.value === '') {
+    if(appointment.value === "") {
       appointment.classList.add("field-error");
     }
 
-    if(departure.value === '') {
+    if(departure.value === "") {
       departure.classList.add("field-error");
     }
 

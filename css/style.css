@@ -436,19 +436,19 @@ a {
 }
 
 .order-text::-webkit-input-placeholder {
-  color:#000;
+  color: #000;
 }
 
 .order-text::-moz-placeholder {
-  color:#000;
+  color: #000;
 }
 
 .order-text:-moz-placeholder {
-  color:#000;
+  color: #000;
 }
 
 .order-text:-ms-input-placeholder {
-  color:#000;
+  color: #000;
 }
 
 .field-error {
