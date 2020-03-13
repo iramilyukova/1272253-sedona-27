@@ -351,6 +351,10 @@ a {
   height: 100%;
 }
 
+.google-map {
+  border: 0;
+}
+
 .form-image {
   display: block;
 }
