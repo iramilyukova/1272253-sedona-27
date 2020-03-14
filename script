@@ -1,13 +1,16 @@
 <script>
   var button = document.querySelector(".order-question-button");
   var popup = document.querySelector(".form-container");
-  var form = popup.querySelector("form");
+  var form = popup.querySelector(".form");
   var date = form.querySelector("[name=date]");
   var departure = form.querySelector("[name=departure-date]");
   var adults = form.querySelector("[name=adults]");
   var child = form.querySelector("[name=child]");
+  var nojs-form = form.querySelector(".nojs-form");
   var isStorageSupport = true;
   var storage = "";
+
+ .form-container.classList.remove("nojs-form");
 
   try {
   storage = localStorage.getItem("adults");
@@ -27,7 +30,6 @@
      date.focus();
    } else {
      departure.focus();
-/*Не поняла, как делать дальнейшие фокусы на поля ввода*/
   if (storage) {
       child.value = storage;
     }

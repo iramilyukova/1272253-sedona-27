@@ -238,6 +238,7 @@ a {
 
 .reasons-content-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -414,6 +415,10 @@ a {
   margin-left: -284px;
   background-color: #fff;
   z-index: 3;
+}
+
+.nojs-form {
+  opacity: 1;
 }
 
 .form-show {
@@ -964,6 +969,7 @@ a {
 
 .sort-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-basis: 240px;
   list-style: none;
