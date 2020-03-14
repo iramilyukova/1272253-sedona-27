@@ -409,16 +409,16 @@ a {
   padding: 55px;
   box-sizing: border-box;
   position: absolute;
-  display: none;
   top: 0;
   left: 50%;
   margin-left: -284px;
   background-color: #fff;
   z-index: 3;
+  display: none;
 }
 
-.nojs-form {
-  opacity: 1;
+.form-hide {
+  display: block;
 }
 
 .form-show {

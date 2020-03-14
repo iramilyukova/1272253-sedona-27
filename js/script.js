@@ -9,6 +9,8 @@ var isStorageSupport = true;
 var adultsStorage = "";
 var childStorage = "";
 
+form.classList.remove("form-hide");
+
 try {
   adultsStorage = localStorage.getItem("adults");
 } catch (err) {
