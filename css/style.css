@@ -226,7 +226,7 @@ a {
 }
 
 .reason-content-item-text-gray {
-  max-width: 70%;
+  max-width: 69%;
   margin: 0 auto;
   padding-bottom: 20px;
   cursor: default;
@@ -336,7 +336,7 @@ a {
   background-color: #604e43;
 }
 
-.order-question-button:focus {
+.order-question-button:active {
   background-color: #503e33;
   color: #928a85;
 }
@@ -413,12 +413,8 @@ a {
   left: 50%;
   margin-left: -284px;
   background-color: #fff;
-  z-index: 3;
+  z-index: 2;
   display: none;
-}
-
-.form-hide {
-  display: block;
 }
 
 .form-show {
@@ -465,7 +461,7 @@ a {
   background-color: #ebebeb;
 }
 
-.order-text:focus {
+.order-text:active {
   background-color: #e5e5e5;
 }
 
@@ -560,8 +556,8 @@ a {
   background-color: #000;
 }
 
-.order-button-edit:focus::before,
-.order-button-edit:focus::after {
+.order-button-edit:active::before,
+.order-button-edit:active::after {
   background-color:  #81b3d2;
 }
 
@@ -573,7 +569,7 @@ a {
   background-color: #000;
 }
 
-.order-button-edit-plus:focus::after {
+.order-button-edit-plus:active::after {
   background-color: #81b3d2;
 }
 
@@ -607,7 +603,7 @@ a {
   color: #fff;
 }
 
-.order-button:focus {
+.order-button:active {
   background-color: #5496bd;
   color: #94b9d2;
 }
@@ -681,11 +677,11 @@ a {
   background-color: #669ec0;
 }
 
-.social-button:focus {
+.social-button:active {
   background-color: #5496bd;
 }
 
-.social-button:focus path {
+.social-button:active path {
   fill: #88b6d1;
 }
 
@@ -705,7 +701,7 @@ a {
   fill: #81b3d2;
 }
 
-.footer-logo:focus svg {
+.footer-logo:active svg {
   fill: #bdbbbc;
 }
 
@@ -970,37 +966,39 @@ a {
 .sort-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  flex-basis: 240px;
+  flex-basis: 650px;
   list-style: none;
   font-size: 12px;
   margin: 0px;
   padding: 4px 0px 0px;
 }
 
-.sort-item-dotted{
-  padding-top: 2px;
-
+.sort-list li {
+  margin-right: 33px;
 }
+
+.sort-list span {
+  padding-bottom: 1px;
+  }
 
 .sort-item-current {
   color: #81b3d2;
   cursor: default;
+  border-bottom: none;
 }
 
 .sort-item-dotted a {
   margin: 0 auto;
   color: #b1b1b1;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: #81b3d2;
+  border-bottom: 1px dotted #81b3d2;
+  padding-bottom: 1px;
 }
 
 .sort-item-dotted a:hover {
   color: #81b3d2;
 }
 
-.sort-item-dotted a:focus {
+.sort-item-dotted a:active {
   color: #000;
  }
 
@@ -1019,10 +1017,6 @@ a {
   fill: #000;
 }
 
-.sort-item-icon-1:focus svg {
-  fill: #81b3d2;
-}
-
 .sort-item-icon-1:active svg {
   fill: #81b3d2;
 }
@@ -1035,7 +1029,7 @@ a {
   fill: #000;
 }
 
-.sort-item-icon-2:focus svg {
+.sort-item-icon-2:active svg {
   fill: #81b3d2;
 }
 
@@ -1103,9 +1097,9 @@ a {
 }
 
 .catalog-item-block2 {
-  width: 270px;
+  width: 300px;
   margin-left: 29px;
-  margin-right: 509px;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
 }
