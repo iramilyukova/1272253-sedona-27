@@ -9,7 +9,7 @@ var isStorageSupport = true;
 var adultsStorage = "";
 var childStorage = "";
 
-popap.classList.remove("form-show");
+popup.classList.remove("form-show");
 
 try {
   adultsStorage = localStorage.getItem("adults");
