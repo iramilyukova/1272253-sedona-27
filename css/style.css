@@ -87,7 +87,6 @@ a {
   padding-bottom: 18px;
 }
 
-
 .header-navigation li:nth-child(3n),
 .header-navigation li:nth-child(3n+1) {
   text-align: right;
@@ -222,7 +221,6 @@ a {
 .reason-item-text-blue-2 {
   max-width: 80%;
   margin: 0 auto;
-
 }
 
 .reason-content-item-text-gray {
@@ -1103,7 +1101,6 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .catalog-item-title {
   font-size: 21px;
